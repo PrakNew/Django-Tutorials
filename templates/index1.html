@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous'>
+
+    <title>Django Demo</title>
+  </head>
+  <body>
+    <h1>This is a Django tutorial and we are making a text util website</h1>
+    <form action='/about' method='get'>
+        <textarea name='text' style='margin: 0px; width: 721px; height: 93px;'></textarea><br>
+    
+        <input type='checkbox' name='removepunc'> Remove Punctuations<br>
+        <input type='checkbox' name='makeupper'> Make Upper<br>
+        <input type='checkbox' name='makelower'> Make Lower<br>
+        <input type='checkbox' name='countwords'> Count Number of Words<br>
+        <input type='checkbox' name='removenewline'> Remove new line character<br>
+        <button type='submit'> Analyze Text</button>
+    
+  </body>
+</html>
